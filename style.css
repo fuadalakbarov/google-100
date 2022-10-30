@@ -13,6 +13,8 @@
            flex-direction: column;
            height: 100vh;
            justify-content: space-between;
+
+           
             }
 
 /* Header part */
@@ -68,37 +70,50 @@ color: white}
 .s-form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+   align-items: center;
     
 }
-.input{width: 40%;
-    position: relative;
-    min-width: 487px;
+.input{ 
+    width: 50%;
+    position: relative;  
+    left: 3%;
+    
+   
+
 }
 
-input{
-    width: 50%;
-    padding:8px 130px;
-    
-    border-radius: 25px;
-    border: solid 1px #dedede;
-    opacity: .7;
-    cursor: pointer;
+.s-input{
+    padding-left: 30px;
+}
+
+input{ 
+    width:80%;
+    height: 10px;
+    padding: 13px;
+    border-radius: 24px;
+    border: solid 1px #dfe1e5;
+    box-shadow: none;
+    max-width: 584px;
    
 }
 
+
 .vs-icon{
-    position: absolute; 
-   right: -1%;
-    top: 20%;
     width: 20px;
-    }
+    position:absolute;
+    right: 14%;
+    top: 20%;
+    cursor: pointer;
 
-.s-icon{position: absolute;
-        left:3% ;
-        top:20%;
-        width: 20px;
+}
 
+.s-icon{
+    width: 15px;
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    opacity: .4;
+   
 }
 
 .buttons{ padding: 15px 0px 15px}
@@ -106,22 +121,23 @@ input{
 
 .buttons > button { padding: 10px 12px; 
                     cursor: pointer;
-                    background-color: rgb(241, 238, 238);
+                    background-color:#f8f9fa;
                     border: 1px solid transparent;
-                    border: 8px;}
+                    border: 8px;
+                    border-radius: 4px;
+                }   
       
 
 
 span{text-align: center; padding-bottom: 90px;
      }
-footer{align-items: center;}
-
-     h4{ padding: 4px 16px;
-
-    background-color: #f2f2f2;
-    border: 1px solid transparent;
-   
-     
+footer{
+    align-items: center;
+    background-color:#f8f9fa;
+}
+h4{ 
+    padding: 4px 16px;
+    border: 1px solid transparent
     }
 
 
@@ -130,16 +146,14 @@ footer{align-items: center;}
     display: flex;
    justify-content: space-between;
     align-items: center;
-    background-color: #f2f2f2;
-    border:  1px solid transparent;
-   
-  padding: 10px 14px 10px;
-
-
-    
-
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    border:  1px solid #f8f9fa; 
+    padding: 10px 14px 10px;
 
 }
+
+
 
 .left-side a{
     padding: 8px;
